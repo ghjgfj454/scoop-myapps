@@ -6,14 +6,8 @@
     "hash": "sha256:0A6636C89717F53479514483166FD21B670E6BFC596F01E9B542BBFEA798007D",
     "bin": "File-Name-Sprite-v2025.exe",
     "aliases": ["fn2025"],
-    "post_install": [
-        "$shortcutFolder = \"C:\\Users\\hongf\\Scoop\\Shortcuts\"",
-        "if (!(Test-Path $shortcutFolder)) { New-Item -ItemType Directory -Path $shortcutFolder -Force }",
-        "$wsShell = New-Object -ComObject WScript.Shell",
-        "$shortcut = $wsShell.CreateShortcut(\"$shortcutFolder\\文件名精灵2025.lnk\")",
-        "$shortcut.TargetPath = \"$dir\\File-Name-Sprite-v2025.exe\"",
-        "$shortcut.IconLocation = \"$dir\\File-Name-Sprite-v2025.exe,0\"",
-        "$shortcut.Save()"
+    "shortcuts": [
+        ["File-Name-Sprite-v2025.exe", "文件名精灵2025"]
     ],
     "homepage": "",
     "depends": [],

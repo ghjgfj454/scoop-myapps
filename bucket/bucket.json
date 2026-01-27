@@ -1,5 +1,5 @@
 {
     "name": "scoop-myapps",
-    "description": "我的自定义Scoop仓库",
-    "maintainers": ["ghjgfj454 <syjlx620620@qq.com>"]
+    "description": "My custom Scoop bucket for personal apps",
+    "maintainers": ["你的GitHub用户名 <你的邮箱>"]
 }

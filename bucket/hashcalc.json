@@ -3,8 +3,8 @@
     "description": "一个文件哈希值计算小工具.",
     "homepage": "https://github.com/hrpzcf/HashCalculator",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/hrpzcf/HashCalculator/releases/download/v6.2.0/HashCalculator-6.2.0.zip",
-    "hash": "CCD4AD71E8C3FE096BD8419EFCEC8FA515FCA5B23D46DAA0ED052C2E1583FB0C",
+    "url": "https://github.com/ghjgfj454/scoop-myapps/releases/download/scoop/HashCalculator-6.2.0.zip",
+    "hash": "ccd4ad71e8c3fe096bd8419efcec8fa515fca5b23d46daa0ed052c2e1583fb0c",
     "bin": "HashCalculator.exe",
     "shortcuts": [
         [
@@ -17,6 +17,6 @@
         "github": "https://github.com/hrpzcf/HashCalculator"
     },
     "autoupdate": {
-        "url": "https://github.com/hrpzcf/HashCalculator/releases/download/v$version/HashCalculator-$version.zip"
+        "url": "https://github.com/ghjgfj454/scoop-myapps/releases/download/scoop/HashCalculator-$version.zip"
     }
 }
